@@ -1,5 +1,13 @@
 //// Anchor and Stone ////
 
+/* Special Note for prospect : 
+Comments are important for several reasons:
+- They allow to make the code more readable, to leave explanations/descriptive of what the code produces for our collaborators. 
+
+- They increase the overall maintainability of the code on one hand and on the other hand they allow to spot whatever change even after a long absence in the code. 
+
+*/
+
 //Create map
 
 let map = [];
