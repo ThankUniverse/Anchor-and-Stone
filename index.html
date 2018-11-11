@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<!--<link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo" rel="stylesheet">Typography option-->
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<meta charset="utf-8">
+	
+	<title>L'ancre & la plume</title>
+</head>
+<body>
+	<div id="container">
+		<img src="" id="img">
+		<div id="sub-container">
+			<p id="location"></p>
+			<p id="content"></p>
+			<p id="gameMessage"></p>
+		</div>
+		<form id="sendInput" onsubmit="return false;">
+			<input type="text" placeholder="Inserez les commandes ici" id="userInput" value="" autocomplete="off">
+			<input type="submit"  value="SEND" onclick="store();" id="buttonSubmit">
+		</form>
+	</div>
+	<div class="health">
+		<div class="wave" id="wave"></div>
+		<div class="wave" id="wave-two"></div>
+		<div class="wave" id="wave-three"></div>
+	</div>
+<!--Script-->
+		<script type="text/javascript" src="./js/game.js"></script>
+</body>
+</html>
